@@ -3,7 +3,8 @@ import TodoForm from "./TodoForm";
 import Todo from "./Todo";
 import axios from "axios";
 
-const baseUrl = "http://localhost:8080"
+// const baseUrl = "http://localhost:8080"
+const baseUrl = "https://todolist-30rr.onrender.com"
 
 const TodoList = () => {
     const [todos, setTodos] = useState([])
